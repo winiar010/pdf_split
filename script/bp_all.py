@@ -8,7 +8,6 @@ def dzielenie():
     with open("nazwy.txt", encoding="utf8") as f:
         lines = f.read().splitlines()
     # pdfs = glob.glob("bp_A6P.pdf")
-    validation = True
     
     while True:
         pdfs = input("Podaj nazwę pliku, który chcesz podzielić (powinien znajdować się w tym samym katalogu) ")
